@@ -1,0 +1,31 @@
+du -> disk usage 
+du -sh /boot
+du -sh /boot/*
+du --help
+-sh 
+s = summarize (total folder ke bawah)
+h = human readable
+
+* = apapun/semuanya
+a* = yang mempunyai awalan audit/awk/dll
+*.conf = yang mempunyai akhir .conf krb5.conf/sudo.conf/dll
+*a*.conf = yang mempunyai di-tengah2-nya huruf a dan berakhiran .conf xattr.conf/libaudit.conf/dll
+
+mkdir -> make directory
+rmdir -> remove directory
+
+mount point -> sebuah directory untuk hard disk/partisi/storage server
+touch -> membuat file
+
+vi 
+edit -> tekan Insert atau huruf i
+save -> tekan Esc, :wq! atau ZZ
+keluar -> tekan Esc, :x
+mode COMMAND (save, exit) dan mode INSERT (ngetik)
+Insert dan Esc
+
+COMMAND
+i
+:wq!
+:x
+ZZ

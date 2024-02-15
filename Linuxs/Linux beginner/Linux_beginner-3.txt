@@ -1,0 +1,28 @@
+cat -> untuk melihat isi file tanpa meng-edit
+head -> untuk melihat awal file (10 baris awal)
+tail -> untuk melihat akhir file (10 baris terakhir)
+more -> sama seperti cat, tapi ada paging
+less -> sama seperti cat, tapi ada paging
+
+
+navigasi di more :
+Enter -> untuk ke bawah
+b -> untuk ke atas
+
+navigasi di less :
+tombol panah (arrow key) atas bawah kiri kanan
+
+echo -> menampilkan sesuatu ke layar
+
+cat /dev/null > filelatihan.txt -> mengosongkan file
+
+> == redirect (write)
+apa yg di sebelah kiri (LEBIH BESAR) akan dimasukkan ke sebelah kanan
+
+>> == redirect (append)
+apa yg di sebelah kiri (LEBIH BESAR) akan ditambahkan ke sebelah kanan
+
+shutdown -h now -> untuk mematikan server dari command line
+
+nmtui -> untuk men-set ip address
+

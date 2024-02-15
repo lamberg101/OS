@@ -1,0 +1,47 @@
+ping -> koneksi, OSI 7 layer, layer 3
+  status : nyambung/tidak
+telnet -> koneksi + service, OSI 7 layer, layer 7
+  status :
+    - nyambung + service nyala
+    - nyambung + service mati
+    - nyambung + service (nyala/mati) + diblok firewall
+    - nyambung + service nyala + diblok oleh internal service + diblok firewall
+    - tidak nyambung + service (nyala/mati)
+
+ssh port 22
+oracle port 1521
+postgres port 5432
+
+meng-copy file antar server
+scp -> secure copy
+scp source destination
+scp filelatihan.txt user@ipaddress:lokasi
+scp filelatihan.txt centos@192.168.136.223:/home/centos
+scp filelatihan.txt centos@192.168.136.223: (home directory /home/centos)
+scp filelatihan.txt ubuntu@192.168.136.223: (home directory /home/ubuntu)
+scp filelatihan.txt ubuntu@192.168.136.223:/home/centos
+
+scp * opc@10.37.191.1:/acfs01/backup2/
+scp -o ServerAliveInterval=30 -i /home2/dewantarapp/.ssh/privkey_rsa * opc@10.37.191.1:/acfs01/backup2/
+
+ssh authentication type :
+- password based
+- passwordless, file private key
+
+cp -> copy file/folder
+mv -> move file/folder (rename)
+
+sftp / scp
+secure file transfer protocol / secure copy
+sftp -> modul khusus konfigurasi server
+scp -> default
+ftp -> file transfer protocol
+
+windows -> linux (xshell, putty, moba xterm)
+linux -> linux (ssh)
+
+mengakses remote server
+ssh -> secure shell
+ssh destination
+ssh user@ipaddress
+ssh centos@192.168.136.223

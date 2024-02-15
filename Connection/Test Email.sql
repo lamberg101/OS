@@ -1,0 +1,1 @@
+$ echo test mail tegar | mailx -v -s mtegar test mail i_npw_dharmawan@telkomsel.co.id

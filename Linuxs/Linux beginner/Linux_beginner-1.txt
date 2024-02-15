@@ -1,0 +1,30 @@
+pwd -> print working/current directory
+cd -> change directory
+ls -> list (current directory)
+ls /boot -> list (/boot)
+ls -al -> list all (current directory)
+ls -al /boot -> list all  (/boot)
+ls /boot -al -> list all  (/boot)
+-al switch (on/off)
+/boot file/directory
+
+ls --help -> menampilkan help
+
+pertanyaan : apakah isi dari directory /boot?
+
+a. cd /boot
+   ls -al
+
+b. ls -al /boot
+
+ls -al
+on: a,l off: r,t,h
+
+ls -lrth
+on: l,r,t,h off: a
+
+a: all
+l: detail (size, timestamp)
+r: reverse order
+t: sort by time
+h: human readable
